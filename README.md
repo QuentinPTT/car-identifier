@@ -2,7 +2,7 @@
 <p align="center">
 	<img src="webapp/static/thumbnail.png" width="700">
 </p>
-<p align="center">Car-Identifier is a compact, that uses a fine-tuned VGG16 model and Flask to identify car makes and models from uploaded images.</p>
+<p align="center">Car-Identifier uses a fine-tuned VGG16 model and Flask to identify car makes and models from uploaded images.</p>
 
 # Under construction
 Recognition of only 5 vehicles
