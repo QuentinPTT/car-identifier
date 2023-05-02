@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Identifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="center">
+            <h1>Upload an image of a car</h1>
+            <form action="/" method="post" enctype="multipart/form-data">
+                <input id="file" type="file" name="image" accept="image/*" required>
+                <button type="submit">Predict Car Model</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
